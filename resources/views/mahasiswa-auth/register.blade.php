@@ -51,14 +51,14 @@
                 <div>
                     <input type="text" name="nim" id="nim" required
                            class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-md focus:ring-2 focus:ring-gray-300 focus:border-transparent text-gray-700 placeholder-gray-400"
-                           placeholder="Student ID (NIM)" value="{{ old('nim') }}">
+                           placeholder="NIM" value="{{ old('nim') }}">
                 </div>
 
                 <!-- Nama Lengkap -->
                 <div>
                     <input type="text" name="nama_lengkap" id="nama_lengkap" required
                            class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-md focus:ring-2 focus:ring-gray-300 focus:border-transparent text-gray-700 placeholder-gray-400"
-                           placeholder="Full Name" value="{{ old('nama_lengkap') }}">
+                           placeholder="Nama Lengkap" value="{{ old('nama_lengkap') }}">
                 </div>
 
                 <!-- Email -->
@@ -72,21 +72,21 @@
                 <div>
                     <input type="tel" name="no_telp" id="no_telp" required
                            class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-md focus:ring-2 focus:ring-gray-300 focus:border-transparent text-gray-700 placeholder-gray-400"
-                           placeholder="Phone Number" value="{{ old('no_telp') }}">
+                           placeholder="No Handphone" value="{{ old('no_telp') }}">
                 </div>
 
                 <!-- Jurusan -->
                 <div>
                     <input type="text" name="jurusan" id="jurusan"
                            class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-md focus:ring-2 focus:ring-gray-300 focus:border-transparent text-gray-700 placeholder-gray-400"
-                           placeholder="Major (Optional)" value="{{ old('jurusan') }}">
+                           placeholder="Jurusan (Optional)" value="{{ old('jurusan') }}">
                 </div>
 
                 <!-- Program Studi -->
                 <div>
                     <input type="text" name="prodi" id="prodi"
                            class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-md focus:ring-2 focus:ring-gray-300 focus:border-transparent text-gray-700 placeholder-gray-400"
-                           placeholder="Study Program (Optional)" value="{{ old('prodi') }}">
+                           placeholder="Program Studi (Optional)" value="{{ old('prodi') }}">
                 </div>
 
                 <!-- Password -->
