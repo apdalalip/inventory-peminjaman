@@ -22,7 +22,7 @@
         <div class="bg-white rounded-lg shadow-2xl overflow-hidden">
             <!-- Header -->
             <div class="bg-gray-50 px-8 pt-8 pb-4 text-center border-b">
-                <h1 class="text-xl font-bold text-gray-800 mb-3 tracking-wide">PEMINJAMAN BARANG<br>KAMPUS</h1>
+                <h1 class="text-xl font-bold text-gray-800 mb-3 tracking-wide">PEMINJAMAN BARANG</h1>
                 
                 <!-- Logo/Image -->
                 <div class="mb-4">
@@ -65,7 +65,7 @@
                 <div>
                     <input type="email" name="email" id="email" required
                            class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-md focus:ring-2 focus:ring-gray-300 focus:border-transparent text-gray-700 placeholder-gray-400"
-                           placeholder="Email Address" value="{{ old('email') }}">
+                           placeholder="Alamat Email" value="{{ old('email') }}">
                 </div>
 
                 <!-- No Telepon -->
